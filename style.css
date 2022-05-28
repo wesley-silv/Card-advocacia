@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #0d3b399f;
+    height: 100vh;
+    width: 100vw;
+    min-width: 500px;
+    padding: 5rem 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+body h2 {
+    color: #201155;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 15rem;
+    width: 15rem;
+    clip-path: circle(50% at 50% 50%);
+    margin-bottom: 1rem;
+}
+.container img {
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.container a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+.advocacia {
+    color:#201155;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.navigation {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3rem;
+    width: 15rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    border: double 0.5rem;
+    color:#201155;
+}
+button a {
+    text-decoration: none;
+    color:#201155;;
+    text-transform: uppercase;
+}
+.links {
+    color:#201155;
+}
+.sociamedia {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    flex-direction: row;
+}
+.socialmedia a {
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.socialmedia img {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+.socialmedia p {
+    color: #201155;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+footer h2 {
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 22rem;
+    justify-content: center;
+    border-radius: 2rem;
+    color: #201155;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12rem;
+}
