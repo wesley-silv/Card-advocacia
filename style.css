@@ -20,8 +20,8 @@ body h2 {
 .container {
     margin-left: auto;
     margin-right: auto;
-    height: 15rem;
-    width: 15rem;
+    height: 14rem;
+    width: 14rem;
     clip-path: circle(50% at 50% 50%);
     margin-bottom: 1rem;
 }
